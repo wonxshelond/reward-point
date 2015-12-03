@@ -1,0 +1,221 @@
+*{
+        font-size:12px;
+
+    }
+thead, .grid-view .table th > .sort-link{
+    background:#383838;
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+}
+
+.table th{
+  text-align:center;
+}
+   .form-horizontal .control-label{
+    text-align:left;
+   }
+
+  input.span25, textarea.span25, .uneditable-input.span25{
+  width:210px;
+  }
+     .fullrow{
+     	width:100%;
+        
+     	margin:0 auto;
+     	
+     }
+     .header{
+     	width:100%;
+     	height: 180px;
+          max-height: 180px;
+		
+     	background: url("../images/bg.gif") repeat;
+       -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+     	
+         
+
+     }
+
+     .sidebar{
+     	width:20%;
+     	
+     	
+     	padding: 0;
+     	margin-top:1%;
+     	margin-bottom: 0;
+     	margin-left: 0;
+     	margin-right: 0;
+     }
+     .content{
+     	width:78%;
+     	
+     	
+     	overflow: hidden;
+     	box-shadow: -16px -0px 15px -15px #333;
+       
+     	margin-top:10px;
+     	margin-bottom: 0;
+     	margin-left: 2%;
+     	margin-right: 0;
+     }
+
+     .welly{
+     	width:91%;
+        margin-bottom: 3px;
+		
+     	
+     }
+
+     .well{
+        border:1px solid #ccc;
+		background:none;
+		
+     }
+
+     .welly2{
+     	width:91%;
+     	height: 3%;
+		
+     }
+
+    
+
+     #footer {
+
+
+
+bottom: 0;
+background: #333;
+color:#fff;
+width: 100%;
+
+height: 30px;
+}
+     .ui-icon{display:none;}
+     .iconic{
+       margin-left:-15px;
+     }
+
+     .nav-tabs.nav-stacked{
+        width:250px;
+        margin-left: -20px;
+     }
+    
+	.active{
+  font-weight:bold;
+  
+}
+
+.nav > li.active > a{
+  color:#333;
+  background:#ccc;
+  border:1px solid #ddd;
+}
+
+.nav > li > a:hover{
+  background:#fff;
+  
+}
+
+.ui-widget-content{
+ background:#f9f9f9;
+}
+
+.custom-stacked{
+  margin-bottom:0;
+  margin-top:-13px;
+}
+
+.nav-tabs.nav-stacked{
+  width:261px;
+  height:174px;
+  margin-left:-28px;	
+}
+
+.nav-tabs.nav-stacked > li > a{
+  background:#F5F5F5;
+  color:#333;
+  border:1px solid #ccc;
+}
+
+.nav-tabs.nav-stacked > li:first-child > a{
+ -webkit-border-radius: 0;
+ border-radius:0;
+ -moz-border-radius: 0;
+}
+
+
+.iconicwell{
+  background:#333;
+  border:none;
+  color:#ccc;
+  font-size:18px;
+}
+     
+
+.table-bordered{
+border-right: 1px solid #888;
+border-bottom: 1px solid #888;
+}
+
+.table-bordered th, .table-bordered td {
+ border-left: 1px solid #888;
+}
+.table th, .table td{
+border-top: 1px solid #888;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th{
+   background-color:#fff;
+}
+
+.table-striped tbody > tr:nth-child(even) > td, .table-striped tbody > tr:nth-child(even) > th{
+   background-color:#D1D1D1;
+}
+
+.table-striped tbody tr:hover{
+  font-weight:bold;
+  cursor:hand;
+}
+
+legend{
+  border-bottom:1px solid #8c8c8c;
+}
+
+
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input{
+ border:1px solid #696969;
+ 
+}
+
+.custom-tabs{
+ margin-top:-20px;
+ width:100%;
+ padding-right:35px;
+ margin-left:-20px;
+ 
+}
+
+.form-actions{
+  border-top:1px solid #9e9e9e;
+}
+
+.dropdown-menu li a:hover{
+
+  background:#333;
+  color:#fcfcfc;
+  
+
+}
+
+.dropdown-menu li{
+ width:200px;
+}
+
+img.ui-datepicker-trigger{
+ margin-left:10px;
+}
